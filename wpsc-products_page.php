@@ -252,5 +252,6 @@ global $wp_query;
 		<?php include(TEMPLATEPATH . '/stab_bar.php'); ?>
 	</div>
 </div>
+<?php get_footer();?>
 <!-- end belt-->
 </html>

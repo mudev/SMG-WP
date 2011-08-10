@@ -1,0 +1,111 @@
+#absmain {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 99;
+}
+#navigationMenu li{
+	list-style:none;
+	height:39px;
+	padding:2px;
+	width:40px;
+}
+#navigationMenu span{
+	/* Container properties */
+	width:0;
+	left:39px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+	/* Text properties */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;
+	text-decoration: none;
+	
+	/* CSS3 Transition: */
+	-webkit-transition: 0.25s;
+	
+	/* Future proofing (these do not work yet): */
+	-moz-transition-duration: 0.25s;
+	transition: 0.25s;
+}
+
+#navigationMenu a{
+	background:url('img/navigation.png') no-repeat;
+	height:39px;
+	width:40px;
+	display:block;
+	position:relative;
+	text-decoration:none;
+}
+/* General hover styles */
+#navigationMenu a:hover span{ 
+	width:auto;
+	padding:0 20px;
+	overflow:visible;
+	-moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+    border-top-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+	}
+#navigationMenu a:hover{
+	text-decoration:none;
+	/* CSS outer glow with the box-shadow property */
+	-moz-box-shadow:0 0 5px #9DDFF5;
+	-webkit-box-shadow:0 0 5px #9DDFF5;
+	box-shadow:0 0 5px #9DDFF5;      
+}
+/* Green Button */
+#navigationMenu .home {	background-position:0 0;}
+#navigationMenu .home:hover { background-position:0 -39px;}
+#navigationMenu .home span{
+	background-color:#7DA315;
+	color:#3d4f0c;
+	text-shadow:1px 1px 0 #99BF31;
+}
+/* Purple Button */
+#navigationMenu .blog { background-position:-40px 0;}
+#navigationMenu .blog:hover { background-position:-40px -39px;}
+#navigationMenu .blog span{
+	background-color:#7B118A;
+	color:#460f35;
+	text-shadow:1px 1px 0 #A317B7;
+}
+/* Orange Button */
+#navigationMenu .gallery { background-position:-80px 0;}
+#navigationMenu .gallery:hover { background-position:-80px -39px;}
+#navigationMenu .gallery span{
+	background-color:#c86c1f;
+	color:#5a3517;
+	text-shadow:1px 1px 0 #D28344;
+}
+/* Yellow Button */
+#navigationMenu .stores { background-position:-120px 0;}
+#navigationMenu .stores:hover{ background-position:-120px -39px;}
+#navigationMenu .stores span{
+	background-color:#d0a525;
+	color:#604e18;
+	text-shadow:1px 1px 0 #D8B54B;
+}
+/* Blue Button */
+#navigationMenu .contact { background-position:-160px 0;}
+#navigationMenu .contact:hover { background-position:-160px -39px;}
+#navigationMenu .contact span{
+	background-color:#1e8bb4;
+	color:#223a44;
+	text-shadow:1px 1px 0 #44A8D0;
+}
+/* Cart Button */
+#navigationMenu .cart { background-position:-201px 0;}
+#navigationMenu .cart:hover { background-position:-201px -39px;}
+#navigationMenu .cart span{
+	background-color:#CCC;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #999;
+}

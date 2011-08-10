@@ -1,0 +1,103 @@
+#smpgal{
+	/* CSS3 Box Shadow */
+	-moz-box-shadow:0 0 3px #AAAAAA;
+	-webkit-box-shadow:0 0 3px #AAAAAA;
+	box-shadow:0 0 3px #AAAAAA;
+
+	/* CSS3 Rounded Corners */
+
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+
+	border:1px solid #777;
+	background:url(images/panel.png)bottom center #ffffff;
+
+	/* The width of the smpgal */
+	width:960px;
+	overflow: hidden;
+	position: static;
+	z-index: 2;	
+}
+.gal_title {
+	padding:0;
+	margin:.4em .5em 0;
+	font-size:2.4em;
+	color:#888;
+	text-shadow:0 1px 2px #444;;
+
+}
+#slides{
+	/* This is the slide area */
+	height:400px;
+	width:960px;
+	overflow:hidden;
+}
+.slide{
+	float:left;
+	position: relative;
+	height:400px;
+	width: 960px;
+	padding: 0;
+	margin: 0 auto;
+}
+.slide p {
+font-size: 1.3em;
+font-weight: 400;
+margin: 0;
+padding: 1em 0 0;
+
+}
+#galmenu{
+	/* This is the container for the thumbnails */
+	height:50px;
+	position: relative;
+	z-index: 1;
+}
+
+#galmenu ul {
+	margin:3px 0px;
+	padding-left:-350px;
+}
+
+#galmenu li{
+	/* Every thumbnail is a li element */
+	width:75px;
+	display:inline-block;
+	list-style:none;
+	height:50px;
+	overflow:hidden;
+}
+
+#galmenu li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background: -moz-radial-gradient(center 20px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+}
+
+#galmenu li.act,li.act:hover{
+	/* The active state of the thumb */
+	background: -moz-radial-gradient(center 20px 45deg, circle cover, rgba(8,45,125,1) 0%, rgba(0,11,31, 1) 100%);
+}
+
+#galmenu li.act a{
+	cursor:default;
+}
+
+.fbar{
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:1px;
+	background:url(images/divider.jpg) no-repeat right;
+}
+
+#galmenu li a{
+	display:block;
+	background:url(images/divider.jpg) no-repeat right;
+	height:48px;
+
+}
+
+#galmenu a img{
+	border:none;
+	margin: 0;
+	padding: 0px 12px;
+}

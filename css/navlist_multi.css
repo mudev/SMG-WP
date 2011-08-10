@@ -1,0 +1,77 @@
+#top_navlist {
+	font-family:Optima, Corbel,'Myriad Pro', Arial, Helvetica, sans-serif;
+	width: 100%;
+    background-color: #0D0D0D;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    letter-spacing:0.6px;
+    padding: 0;
+    margin:  0;
+    z-index: 10;
+    height: 24px;
+    width: 960px;
+}
+#top_navlist ul {
+	display: block;
+	padding: 0;
+	margin: 0 auto;
+	list-style-type: none;
+}
+#top_navlist li {
+	float: left;
+	width: 188px;
+	margin: 0;
+	text-align:center;
+	border-left: 1px solid rgba(0,0,0,0.3);
+	border-right: 1px solid rgba(255,255,255,0.3);
+}
+#top_navlist li a {
+color: #AA00FF;
+}
+.tophome,  .topstudio, .topgall, .topstores, .topcontact  {
+	color: #676767;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 5px;
+	background : -webkit-gradient(linear, left top, left bottom, from(rgb(52,52,52)), to(rgb(77,77,77)));
+	background : -moz-linear-gradient(top, rgb(13,13,13), rgb(68,68,68));
+}
+#top_navlist a:link {
+	display: block;			
+	color:#616161;
+	font-size:14px;
+	font-style:normal;
+	text-decoration:none;
+	text-transform: uppercase;
+	margin: 0;
+}
+/* Green Button */
+ .tophome:hover {
+	 background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(173,255,16,1)), to(rgba(79,116,7, 1)) );
+	background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(173,255,16,1) 0%, rgba(79,116,7, 1) 100%);
+ }
+/* Purple Button */
+#top_navlist .topstudio:hover {
+	background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(168,19,182,1)), to(rgba(61,7,66, 1)) );
+	background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(168,19,182,1) 0%, rgba(61,7,66, 1) 100%);
+}
+/* Orange Button */
+#top_navlist .topgall:hover {
+	background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(228,126,9,1)), to(rgba(58,32,2, 1)) );
+	background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(228,126,9,1) 0%, rgba(58,32,2, 1) 100%);
+}
+
+/* Yellow Button */
+#top_navlist .topstores:hover{
+	background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(225,214,13,1)), to(rgba(79,66,4, 1)) );
+	background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(225,214,13,1) 0%, rgba(79,66,4, 1) 100%);
+}
+
+/* Blue Button */
+#top_navlist .topcontact:hover {
+	background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(28,144,231,1)), to(rgba(2,8,71, 1)) );
+	background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(28,144,231,1) 0%, rgba(2,8,71, 1) 100%);
+}

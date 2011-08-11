@@ -77,22 +77,6 @@ clear: both;
 margin: 1em 0 .5em .5em;
 padding: 5px 0;
 }
-
-#catshow {
-padding: 0;
-margin-top: -1.4em;
-margin-right: 1em;
-float: right;
-}
-.exc_class {
-padding: 0 .25em;
-margin: 0 .5em 3em;
-border-bottom: 1px solid gray;
-}
-.exc_class p {
-font-size: 1.4em;
-line-height: 1.2em;
-}
 #content {
 	position:relative;
 	z-index:2;

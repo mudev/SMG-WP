@@ -2,9 +2,7 @@
 /*** @package WordPress
 * @subpackage SMPWide_Theme
  */
-global $post; // < -- globalize, just in case
-$field = get_post_meta($post->ID, 'redirect', true);
-if($field) wp_redirect(clean_url($field), 301);
+
 get_header(); ?>
 <div id="content">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -16,4 +14,5 @@ get_header(); ?>
 		</div>
 	<?php endwhile; endif; ?>	
 </div>
-<?php get_footer(); ?>
+<?php get_footer();?>
+

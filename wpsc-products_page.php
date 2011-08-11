@@ -252,6 +252,6 @@ global $wp_query;
 		<?php include(TEMPLATEPATH . '/stab_bar.php'); ?>
 	</div>
 </div>
-<?php get_footer();?>
+<div id="shadow"></div>
 <!-- end belt-->
 </html>

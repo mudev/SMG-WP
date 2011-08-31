@@ -6,7 +6,7 @@
 get_header();?>
 <body>
 <?php include(TEMPLATEPATH . '/absnav.php'); ?>
-<div id="topbar">
+<div id="topbar_home">
 	<div id="topleftcell">
 				<a href="http://localhost:8888/smp29/freebies" title="Git yer Free tracks 'ere" target="_self"><img src="<?php bloginfo('template_directory'); ?>/images/internal/rotator.php" alt="Free Tracks" /></a>
 				</div><!-- end topleftcell -->
